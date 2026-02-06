@@ -1,6 +1,16 @@
-# Ignore
+# AI Agent Tooling
+.agent/
+.gemini/
+.brain/
+
+# System Files
+.DS_Store
+Thumbs.db
 node_modules/
-.temp_ag_kit/
-antigravity-doc
-tests
-others
+.next/
+out/
+build/
+.env
+.env.local
+.vercel
+*.log
