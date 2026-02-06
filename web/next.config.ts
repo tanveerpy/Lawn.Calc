@@ -11,6 +11,8 @@ const withMDX = createMDX({});
 export default withMDX({
   ...nextConfig,
   output: "export",
-  // Optional: Add basePath if deploying to a subdirectory (e.g. /repo-name)
-  // basePath: "/repo-name", 
+  basePath: "/Lawn.Calc",
+  images: {
+    unoptimized: true,
+  },
 });
